@@ -362,13 +362,10 @@
 </div>
 
 <!-- ================= SONG =================
-     👉 FULL SONG PLAY AAGA:  Easan padathla "Kannil Anbai" song ah
-        'song.mp3' nu peyar vachu, indha index.html iruka SAME
-        folder-la podunga. Adhu automatic-a load aagi tap-la olikkum.
-        (mp3 illana keezha .m4a / .ogg um try pannikonga)              -->
+    
 <audio id="song" loop preload="auto"></audio>
 <div id="musicBar">
-  <div id="nowPlaying">🎵 Akhiyan Udeek Diyan</div>
+  <div id="nowPlaying">🎵 Yen-Endral.mp3</div>
   <div id="songControls">
     <button id="playPauseBtn" aria-label="play/pause">⏸</button>
   </div>
@@ -428,9 +425,9 @@ function pop(){ tone(240,0,.12,'square',.08); }
    ========================================================= */
 const song = $('song');
 const SONG_SOURCES = [
-  'song.mp3',
-  './song.mp3',
-  '1-03_Kannil_Anbai_-_MassTamilan_com.mp3',   // rename pannaama upload panna case
+  'Yen-Endral.mp3',
+  './Yen-Endral.mp3',
+  'Yen-Endral.mp3',   // rename pannaama upload panna case
   'song.m4a',
   'song.ogg',
   'https://p.scdn.co/mp3-preview/c5191bf204136c412243d5ffa7324de219ad743a'
